@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">truckadda</string>
-    <string name="Tab1">Suzuki</string>
-    <string name="Tab2">Riksha</string>
+    <string name="title_activity_maps">Truck Adda</string>
 
 </resources>
