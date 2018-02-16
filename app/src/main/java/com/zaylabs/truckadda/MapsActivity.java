@@ -20,25 +20,25 @@ import java.util.Arrays;
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-    public static final int RC_SIGN_IN = 1;
+    /*public static final int RC_SIGN_IN = 1;
     //FirebaseUI
     private FirebaseAuth mFirebaseAuth;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
-
+*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
 
-        //FirebaseUI
+  /*      //FirebaseUI
         mFirebaseAuth = FirebaseAuth.getInstance();
-
+*/
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-        //End of on Create
+        /*//End of on Create
         mAuthStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
@@ -60,7 +60,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 }
 
             }
-        };
+        };*/
     }
 
 
@@ -82,6 +82,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
+/*
 
     @Override
     protected void onPause(){
@@ -96,5 +97,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //FirebaseUI
         mFirebaseAuth.addAuthStateListener(mAuthStateListener);
     }
-
+*/
 }
+

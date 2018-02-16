@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@mipmap/ic_home_black_24dp"
+        android:title="@string/home"></item>
+    <item
+        android:id="@+id/weight_calculator"
+        android:icon="@mipmap/ic_chat_bubble_black_24dp"
+        android:title="@string/weight_calculator"></item>
+    <item
+        android:id="@+id/booking_history"
+        android:icon="@mipmap/ic_hourglass_full_black_24dp"
+        android:title="@string/booking_history"></item>
+    <item
+        android:id="@+id/wallet"
+        android:icon="@mipmap/ic_dehaze_black_24dp"
+        android:title="@string/wallet"></item>
+    <item
+        android:id="@+id/profile"
+        android:icon="@mipmap/ic_account_circle_black_24dp"
+        android:title="@string/profile"></item>
+    <item
+        android:id="@+id/terms"
+        android:icon="@mipmap/ic_hourglass_empty_black_24dp"
+        android:title="@string/terms"></item>
+    <item
+        android:id="@+id/logout"
+        android:icon="@mipmap/ic_power_settings_new_black_24dp"
+        android:title="@string/logout"></item>
+</menu>
