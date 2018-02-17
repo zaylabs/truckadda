@@ -3,6 +3,28 @@
     <string name="title_activity_maps">Truck Adda</string>
     <string name="title_activity_login">Sign in</string>
 
+    <!-- String related to Profile -->
+    <string name="c_name">Name</string>
+    <string name="c_phone">Phone 0092-345-6789012</string>
+    <string name="c_confirm">Confirm</string>
+    <string name="c_back">Back</string>
+
+    <!-- Strings related to map activity-->
+    <string name="drop_up_location">Drop up location</string>
+    <string name="pick_up_location">Pick up location</string>
+    <string name="vehicle_info">VEHICLE INFO</string>
+    <string name="ratekm">RATE / KM</string>
+    <string name="REQUEST_RIDE">Ride Now</string>
+    <string name="Ride_Later">Reid Later</string>
+    <string name="locationimg_dec">Location</string>
+
+
+    <!--Vehicle Types Radio Button-->
+    <string name="truck1">Suzuki Open</string>
+    <string name="truck2">Suzuki Closed</string>
+    <string name="truck3">Riksha</string>
+
+
     <!-- Strings related to login -->
     <string name="action_sign_in_short">Register</string>
     <string name="email">Email</string>
@@ -47,4 +69,6 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+
 </resources>
