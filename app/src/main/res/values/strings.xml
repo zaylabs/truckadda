@@ -5,9 +5,12 @@
 
     <!-- String related to Profile -->
     <string name="c_name">Name</string>
-    <string name="c_phone">Phone 0092-345-6789012</string>
+    <string name="c_phone">Phone 0092 345 6789012</string>
     <string name="c_confirm">Confirm</string>
     <string name="c_back">Back</string>
+    <string name="setting">Profile</string>
+    <string name="history">History</string>
+    <string name="Balance">Balance: Rs.1000</string>
 
     <!-- Strings related to map activity-->
     <string name="drop_up_location">Drop up location</string>
